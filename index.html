@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <img src="./assets/image/logo.png" alt="" class="logo">
+            <div class="nav-link-wrapper">
+                <div class="nav-links">
+                    <div class="link">
+                        <img src="assets/image/icon1.svg" alt="">
+                        <a href="" class="top-lives">Top Lives</a>
+                    </div>
+                    <div class="link">
+                        <img src="assets/image/sms.svg" alt="">
+                        <a href="" class="top-lives">support@whoislive.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-cta-wrapper">
+            <div>
+                <input type="search" placeholder="Search for channels, just chatting/categories">
+            </div>
+            <div>
+                <button id="openModal">Join Beta</button>
+            </div>
+        </div>
+    </nav>
+    <div class="grid">
+        <div class="form-container">
+            <div class="form-wrapper">
+                <div class="text-wrapper">
+                    <h1>Join the Beta Test!</h1>
+                    <p>Be among the first to experience our all-in-one streaming platform. Request your beta link today
+                        and get early access.</p>
+                </div>
+                <form action="https://sheetdb.io/api/v1/racj0ju7v1ix5" method="post" id="sheetdb-form">
+                    <label>Email address</label>
+                    <input type="email" placeholder="Enter your email address" name="email" id="email">
+                    <button type="submit" id="submit">Join the Beta</button>
+                    <p>Registered users will receive email access details once the beta is ready.</p>
+                </form>
+            </div>
+        </div>
+        <div class="form-container-mobile">
+            <div class="form-wrapper">
+                <div class="text-wrapper">
+                    <h1>Join the Beta Test!</h1>
+                    <p>Request your beta link today and get early access.</p>
+                </div>
+                <form action="https://sheetdb.io/api/v1/racj0ju7v1ix5" method="post" id="sheetdb-form-mobile">
+                    <label>Email address</label>
+                    <input type="email" placeholder="Enter your email address" name="email" id="emailMobile">
+                    <button type="submit" id="submit">Join the Beta</button>
+                    <p>Registered users will receive email access details once the beta is ready.</p>
+                </form>
+            </div>
+        </div>
+        <div class="grid-img">
+            <div class="img-container">
+                <img src="./assets/image/mobile-logo.png" alt="" class="mobile-logo">
+                <div class="typed-word-wrapper">
+                    <p class="typed-word" id="element"></p>
+                </div>
+                <div class="img-wrapper">
+                    <img src="./assets/image/owl.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalOverlay" class="modal-overlay">
+        <div id="modal" class="modal">
+            <span id="closeModal" class="close">&times;</span>
+             <img src="/assets/image/check-mark.svg" alt="">
+            <h2>Congratulations, You're In!</h2>
+            <div>
+                <div class="modal-card">
+                    <p>Thank you for signing up! you will receive an email shortly with your beta key and access details. Get ready to explore all your favourite streams, all in one place.</p>
+                </div>
+                <button id="doneBtn">Done</button>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/typed.min.js"></script>
+    <script src="./assets/main.js"></script>
+</body>
+
+</html>
